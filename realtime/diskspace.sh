@@ -1,6 +1,6 @@
 MAX=10
-EMAIL=tseetaramaiah421@gmailcom
-PART=/dev/xvda1
+EMAIL=user@gmailcom
+PART=/dev/mapper/rhel-root
 
 USE=$(df -h | grep $PART | awk '{ print $5 }' | cut -d'%' -f1)
 echo $USE
