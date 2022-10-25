@@ -1,3 +1,4 @@
+#!/bin/bash
 MAX=10
 EMAIL=user@gmailcom
 PART=/dev/mapper/rhel-root
